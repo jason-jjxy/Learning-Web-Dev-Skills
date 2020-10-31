@@ -1,0 +1,21 @@
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1530520960548-0d70a1ad430d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
+    background-size: cover;
+    background-position: center;
+    filter: (3px);
+    font-family: 'Roboto Mono', monospace;}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+
+#content {
+    text-align: center;
+    padding-top: 25%;
+}
