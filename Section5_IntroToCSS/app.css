@@ -1,0 +1,37 @@
+body {
+    /* background: url(https://images.unsplash.com/photo-1506689205310-0a29c388691c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+
+    background-size: cover; */
+    background: pink;
+    
+
+}
+
+li {
+    color: green;
+}
+
+h1 {
+    color:#FF0000;
+    border-color: purple;
+    border-width: 5px;
+    border-style: solid;
+
+    border: 5px solid purple;
+}
+
+h2 {
+    color: rgba(194, 96, 12, 0.3) ;
+    border: 5px dashed black;
+
+}
+
+h3 {
+    color: rgb(255, 255, 255)
+}
+
+h4 {
+    color: rgb(194, 96, 12);
+    background: rgb(255, 255, 255)
+}
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms Exercise</title>
+    </head>
+
+    <body>
+        <h1>Register</h1>
+        
+        <form>
+            <div>
+                <label for="firstname">First Name:</label>
+                <input name="first" id="firstname" type="text" placeholder="First Name" required>
+
+                <label for="lastname">Last Name:</label>
+                <input name="last" id="lastname"  type="text" placeholder="Last Name" required>
+            </div>
+
+            <div>
+                <label for="male">Male</label>
+                <input name="gender" id="male" type="radio" value="male">
+
+                <label for="female">Female</label>
+                <input name="gender" id="female" type="radio" value="female">
+
+                <label for="other">Other</label>
+                <input name="gender" id="other" type="radio" value="other">
+            </div>
+
+            <div>
+
+            <label for="email">Email:</label>
+            <input name="email" id="email" placeholder="Email" type="email" required>
+
+            <label for="password">Password:</label>
+            <input name="password" id="password" placeholder="Password" type="password"
+                    pattern=".{5,10}" required title="5 to 10 characters">
+
+            </div>
+            <div>
+
+            <label for="birthday">Birthday:</label>
+
+            <select name="month" id="birthday">
+                <option value="">--Month--</option>
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+                <option value="Apr">Apr</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+            </select>
+
+            <select name="day" id="day">
+                <option value="">--Day--</option> 
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option> 
+                <option value="7">7</option>
+            </select>
+
+            <select name="year" id="year">
+                <option value="">--Year--</option>
+                <option value="2020">2020</option>
+            </select>
+
+            </div>
+            <div>
+
+            <label for="terms">I agree to the terms and conditions</label>
+            <input id="terms" type="checkbox" value="agree">
+            
+            </div>
+            <div>
+        
+            <button type="submit" value="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
+
+<!-- 
+    
+Mistakes & things to improve on
+- instead of using <p></p> for spacing - use divs instead
+- dont forget to include names in inputs (name is used for the POST and GET functions)
+- id is used for the labels to orient themselves to the correct objects
+- submit button at the end can be used to test and double check
+
+-->
